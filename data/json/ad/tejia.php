@@ -1,0 +1,1 @@
+<?php exit;?>{"edate":"1437580800","width":null,"bgcolor":"#ffbb04","id":"112","height":null,"img":1,"img_url":"images\/tejia.png","content":0}

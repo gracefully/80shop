@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body,button,input,select,textarea{ font-size:12px; font-family:宋体}
+
+
+
+.w950{width:950px}
+.clrfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.cat-filter-bd .cat-subjects li a i,.forecast-cat-filter .cat-subjects li a i{background:url(../images/tb1_icon.png) no-repeat 0 0}
+.cat-filter-nav{margin:0 auto;width:990px;margin-top:10px;background-color:#fff}
+
+.cat-filter-nav h3{float:left;width:66px;height:70px;border:1px solid #e2e2e2;border-left:3px solid #ccc;background-color:#f2f2f2}
+.cat-filter-nav h3 span{display:block;padding-top:28px;width:100%;text-align:center;font-weight:700;color:#676767}
+.cat-filter-bd{float:right;width:919px;height:70px;border:1px solid #e2e2e2;border-left:0}
+
+.cat-filter-bd .cat-subjects{width:100%;height:70px;border-bottom:1px solid #e2e2e2;background-color:#f5f5f5}
+.cat-filter-bd .cat-subjects li{position:relative;_top:1px;_display:inline;float:left}
+.cat-filter-bd .cat-subjects li a{display:block;width:78px;height:71px;text-align:center}
+.cat-filter-bd .cat-subjects li a span{display:block;padding:10px 0 5px}
+.cat-filter-bd .cat-subjects li a i{cursor:pointer;margin:0 auto;display:block;overflow:hidden;width:35px;height:30px;text-indent:-9999px;background-position:0 -60px}
+.cat-filter-bd .cat-subjects li a.nav-lady:hover i{background-position:0 -30px}
+.cat-filter-bd .cat-subjects li a.nav-underwear i{background-position:-35px -60px}
+.cat-filter-bd .cat-subjects li a.nav-underwear:hover i{background-position:-35px -30px}
+.cat-filter-bd .cat-subjects li a.nav-bag i{background-position:-70px -60px}
+.cat-filter-bd .cat-subjects li a.nav-bag:hover i{background-position:-70px -30px}
+.cat-filter-bd .cat-subjects li a.nav-shoes i{background-position:-105px -60px}
+.cat-filter-bd .cat-subjects li a.nav-shoes:hover i{background-position:-103px -30px}
+.cat-filter-bd .cat-subjects li a.nav-man i{background-position:-140px -60px}
+.cat-filter-bd .cat-subjects li a.nav-man:hover i{background-position:-140px -30px}
+.cat-filter-bd .cat-subjects li a.nav-kid i{background-position:-175px -60px}
+.cat-filter-bd .cat-subjects li a.nav-kid:hover i{background-position:-175px -30px}
+.cat-filter-bd .cat-subjects li a.nav-daily i{background-position:-210px -60px}
+.cat-filter-bd .cat-subjects li a.nav-daily:hover i{background-position:-210px -30px}
+.cat-filter-bd .cat-subjects li a.nav-food i{background-position:-245px -60px}
+.cat-filter-bd .cat-subjects li a.nav-food:hover i{background-position:-245px -30px}
+.cat-filter-bd .cat-subjects li a.nav-digit i{background-position:-280px -60px}
+.cat-filter-bd .cat-subjects li a.nav-digit:hover i{background-position:-278px -30px}
+.cat-filter-bd .cat-subjects li a.nav-beauty i{background-position:-315px -60px}
+.cat-filter-bd .cat-subjects li a.nav-beauty:hover i{background-position:-315px -30px}
+.cat-filter-bd .cat-subjects li a.nav-outdoor i{background-position:-350px -60px}
+.cat-filter-bd .cat-subjects li a.nav-outdoor:hover i{background-position:-350px -30px}
+.cat-filter-bd .cat-subjects li a:hover{width:76px;border:1px solid #e2e2e2;border-top:0;border-bottom:0;background-color:#fff}
+.cat-filter-bd .cat-subjects li a.first:hover{border-left:1px solid #fff}
+.cat-filter-bd .cat-subjects li.cur a,.cat-filter-bd .cat-subjects li.cur a:hover{width:76px;text-decoration:none;color:#f95719;border:1px solid #e2e2e2;border-top:0;border-bottom:0;background-color:#fff}
+.cat-filter-bd .cat-subjects li.cur a.first,.cat-filter-bd .cat-subjects li.cur a.first:hover{border-left:1px solid #fff}
+.cat-filter-bd .cat-subjects li.cur .nav-lady i,.cat-filter-bd .cat-subjects li.cur .nav-lady:hover i{background-position:0 0}
+.cat-filter-bd .cat-subjects li.cur .nav-underwear i,.cat-filter-bd .cat-subjects li.cur .nav-underwear:hover i{background-position:-35px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-bag i,.cat-filter-bd .cat-subjects li.cur .nav-bag:hover i{background-position:-70px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-shoes i,.cat-filter-bd .cat-subjects li.cur .nav-shoes:hover i{background-position:-103px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-man i,.cat-filter-bd .cat-subjects li.cur .nav-man:hover i{background-position:-140px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-kid i,.cat-filter-bd .cat-subjects li.cur .nav-kid:hover i{background-position:-175px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-daily i,.cat-filter-bd .cat-subjects li.cur .nav-daily:hover i{background-position:-210px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-food i,.cat-filter-bd .cat-subjects li.cur .nav-food:hover i{background-position:-245px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-digit i,.cat-filter-bd .cat-subjects li.cur .nav-digit:hover i{background-position:-278px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-beauty i,.cat-filter-bd .cat-subjects li.cur .nav-beauty:hover i{background-position:-315px 0}
+.cat-filter-bd .cat-subjects li.cur .nav-outdoor i,.cat-filter-bd .cat-subjects li.cur .nav-outdoor:hover i{background-position:-350px 0}
+.cat-filter-bd .cat-subjects a:link,.cat-filter-bd .cat-subjects a:visited,.cat-filter-bd .cat-subjects a:hover{text-decoration:none;color:#666}
+#tejiaContent{width:100%;}
+#tejiaContent .to-item a img{vertical-align:middle; width:210px; height:210px;}
+.filter-list-detail{clear:both;margin:0 auto;width:1000px;margin-top:10px;background-color:#fff; padding-top:2px}
+
+.filter-list-detail .invisible{visibility:hidden}
+
+
+
+.tejia_goods_list{margin:0 auto;width:996px;border:1px solid #e5e7e6;border-right:0;border-bottom:0}
+
+.tejia_goods_list li{_display:inline;float:left;padding:18px;width:212px;border:1px solid #e5e7e6;border-left:0;border-top:0; background:#FFF}
+
+.tejia_goods_list li.col5{padding:18px}
+
+.tejia_goods_list li dl dt{position:relative;_zoom:1;margin-bottom:10px; border:1px solid #FFFFFF;}
+.tejia_goods_list li dl dt:hover{border:1px solid #CCC;}
+.tejia_goods_list li dl dt .remain{position:absolute;bottom:0;left:0;display:block;width:100%;height:21px;line-height:21px;text-align:center;color:#fff;background-color:#6e6e6e}
+.tejia_goods_list li dl dt .remain em{margin:0 2px;font-family:Verdana;font-style:normal;font-weight:700}
+.tejia_goods_list li dl dt i{position:absolute;top:0;left:0;z-index:10;display:block;width:inherit;height:210px;opacity:.3;filter:alpha(opacity=30);background-color:#fff}
+.tejia_goods_list li dl dd{position:relative;_zoom:1;color:#989898;margin-bottom:2px;*width:100%}
+.tejia_goods_list li dl dd.title{margin-bottom:6px; line-height:20px; height:40px}
+.tejia_goods_list li dl dd strong{display:inline-block;margin-right:4px;padding-left:10px;font-family:Verdana;font-size:20px;color:#fa3725;font-weight:400;background-position:-182px -146px}
+.tejia_goods_list li dl dd del,.tejia_goods_list li dl dd span{display:inline-block;margin-left:5px}
+.tejia_goods_list li dl dd del,.tejia_goods_list li dl dd em{font-weight:700;margin:0 2px}
+.tejia_goods_list li dl dd del{margin:0 5px 0 0;padding-left:10px;background-position:-182px -177px}
+.tejia_goods_list li dl dd .discount,.tejia_goods_list li dl dd .sold-out,.tejia_goods_list li dl dd .will-start,.tejia_goods_list li dl dd .has-end{margin-left:6px;padding:0 3px;background-color:#777;color:#fff}
+.tejia_goods_list li dl dd .sold-out{display:none}
+.tejia_goods_list li dl dd .youfanli{ background:url(../images/icon4.png) no-repeat;font-size:14px}
+.tejia_goods_list li dl dd .discount{ padding:2px 3px}
+.tejia_goods_list li dl dd .has-end{display:none}
+.tejia_goods_list li dl dd .will-start{display:none;background-color:#459f55}
+.tejia_goods_list li dl dd .forecast-flag{display:inline-block;overflow:hidden;margin:7px 0 0 5px;width:54px;height:17px;line-height:9;vertical-align:top;background-position:0 -84px}
+.tejia_goods_list li dl dd .now-to-buy{position:absolute;top:-12px;right:0;display:block;width:66px;height:30px;line-height:30px;text-align:center;font-family:"Microsoft YaHei";background-position:0 -110px}
+.tejia_goods_list li dl dd .now-to-buy:link,.tejia_goods_list li dl dd .now-to-buy:visited,.tejia_goods_list li dl dd .now-to-buy:hover{text-decoration:none;color:#fff}
+.tejia_goods_list li .will-start-buy .will-start{display:inline-block}
+.tejia_goods_list li .will-start-buy .discount{display:none}
+.tejia_goods_list li .has-end-buy .has-end{display:inline-block}
+.tejia_goods_list li .has-end-buy .now-to-buy{display:none}
+.tejia_goods_list li a{display:block;text-decoration:none;color:#666}
+.tejia_goods_list li a:hover{text-decoration:none;color:#f95719}
+.tejia_goods_list li:hover,.tejia_goods_list li.hover{/*background-color:#f3f3f3*/}
+.paginator{clear:both;margin:0 auto;width:990px;padding:45px 0;text-align:center}
+
+.paginator a,.paginator span{display:inline-block;margin:0;padding:0 5px;min-width:16px;_width:16px;height:26px;line-height:26px;text-align:center;vertical-align:top;white-space:nowrap;font-family:Verdana;font-weight:700;border:1px solid #e0e0e0;color:#727272}
+.paginator a{margin-left:2px;border:1px solid #e0e0e0}
+.paginator a:link,.paginator a:visited{text-decoration:none;color:#727272;background-color:#fff}
+.paginator a:hover{text-decoration:none;color:#f50;border:1px solid #fc9d6d;background-color:#ffe7d7}
+.paginator span{margin-left:2px;color:#a8a8a8;background-color:#efefef}
+.paginator .page-prev,.paginator .page-next{_overflow:hidden;padding:0 5px;*width:auto;line-height:28px;*line-height:30px;line-height:30px\0;font-family:simsun}
+.paginator .page-next{margin-left:2px}
+.paginator .page-cur{display:inline-block;height:26px;line-height:26px;color:#fff;border:1px solid #f50;background-color:#f50}
+.paginator sup{display:inline-block;padding:0 15px;font-size:16px;vertical-align:bottom;color:#737373}
+
+.brand-category{width:998px;height:auto;margin:10px auto 0;}
+#tejia-top{border:#d2d2d2 solid 1px;background-color:#fff; overflow:hidden}
+.brand-category .ks-switchable-nav{width:auto;height:70px;background-color:#f1f1f1}
+.brand-category .ks-switchable-nav li{width:83px;height:70px;float:left}
+.brand-category .ks-switchable-nav li a{text-align:center;width:inherit;height:59px;padding-top:11px;display:block;color:#323232;cursor:pointer;outline:0;text-decoration:none;background:url(../images/tb_icon.png) no-repeat -9999px -9999px #f1f1f1}
+.brand-category .ks-switchable-nav li a:hover,.brand-category .ks-switchable-nav li .brand-category-selected{color:#fe4600;outline:0;background-color:#fff}
+.brand-category .ks-switchable-nav li.member-11 a{background-position:-8px -138px}
+.brand-category .ks-switchable-nav li.member-0 a{background-position:-102px -138px}
+.brand-category .ks-switchable-nav li.member-1 a{background-position:-193px -138px}
+.brand-category .ks-switchable-nav li.member-2 a{background-position:-288px -138px}
+.brand-category .ks-switchable-nav li.member-3 a{background-position:-379px -138px}
+.brand-category .ks-switchable-nav li.member-9 a{background-position:-468px -138px}
+.brand-category .ks-switchable-nav li.member-8 a{background-position:-563px -138px}
+.brand-category .ks-switchable-nav li.member-5 a{background-position:-655px -138px}
+.brand-category .ks-switchable-nav li.member-4 a{background-position:-744px -138px}
+.brand-category .ks-switchable-nav li.member-6 a{background-position:-893px 27px}
+.brand-category .ks-switchable-nav li.member-10 a{background-position:-991px 27px}
+.brand-category .ks-switchable-nav li.member-7 a{background-position:-1073px 27px}
+.brand-category .ks-switchable-nav li.member-11 a:hover,.brand-category .ks-switchable-nav li.member-11 .brand-category-selected{background-position:-8px 28px}
+.brand-category .ks-switchable-nav li.member-0 a:hover,.brand-category .ks-switchable-nav li.member-0 .brand-category-selected{background-position:-101px 28px}
+.brand-category .ks-switchable-nav li.member-1 a:hover,.brand-category .ks-switchable-nav li.member-1 .brand-category-selected{background-position:-191px 29px}
+.brand-category .ks-switchable-nav li.member-2 a:hover,.brand-category .ks-switchable-nav li.member-2 .brand-category-selected{background-position:-286px 29px}
+.brand-category .ks-switchable-nav li.member-3 a:hover,.brand-category .ks-switchable-nav li.member-3 .brand-category-selected{background-position:-375px 29px}
+.brand-category .ks-switchable-nav li.member-9 a:hover,.brand-category .ks-switchable-nav li.member-9 .brand-category-selected{background-position:-467px 29px}
+.brand-category .ks-switchable-nav li.member-8 a:hover,.brand-category .ks-switchable-nav li.member-8 .brand-category-selected{background-position:-560px 30px}
+.brand-category .ks-switchable-nav li.member-5 a:hover,.brand-category .ks-switchable-nav li.member-5 .brand-category-selected{background-position:-652px 30px}
+.brand-category .ks-switchable-nav li.member-4 a:hover,.brand-category .ks-switchable-nav li.member-4 .brand-category-selected{background-position:-744px 30px}
+.brand-category .ks-switchable-nav li.member-6 a:hover,.brand-category .ks-switchable-nav li.member-6 .brand-category-selected{background-position:-898px -137px}
+.brand-category .ks-switchable-nav li.member-10 a:hover,.brand-category .ks-switchable-nav li.member-10 .brand-category-selected{background-position:-989px -137px}
+.brand-category .ks-switchable-nav li.member-7 a:hover,.brand-category .ks-switchable-nav li.member-7 .brand-category-selected{background-position:-1073px -137px}
+.brand-category .ks-switchable-content{clear:both;height:auto;background-color:#fff}
+.brand-category .ks-switchable-content .ks-tabs-body{height:auto;text-align:left; display:none; padding:10px 15px;}
+.brand-category .ks-switchable-content .ks-tabs-selected{display:block}
+.brand-category .ks-switchable-content .ks-tabs-body a{color:#666;display:inline-block; padding:5px; margin-right:20px}
+.brand-category .ks-switchable-content .ks-tabs-selected .current{color:#FFf;background-color:#ff4e00;}
+.ks-tabs-panel{width:998px;height:auto;margin:0 auto}

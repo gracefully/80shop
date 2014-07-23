@@ -1,0 +1,1 @@
+document.write('<a target="_blank" ><img src="images/zhuanxiang.png" alt="手机专享" /></a>')

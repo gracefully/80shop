@@ -1,0 +1,96 @@
+.mainbody
+{	
+	margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+.l {
+	float:left
+}
+.r {
+	float:left
+}
+.wrap-task {
+	margin-top:15px;
+	width:1000px;
+	margin:0 auto;
+	text-align:left
+}
+.aside {
+	width:215px
+}
+.status {
+	border:1px solid #f4a370;
+	background:#fce1ce;
+	width:215px;
+	height:162px;
+	margin-bottom:10px;
+	position:relative
+}
+.user-msg {
+	width:148px;
+	padding:0 10px;
+	font-size:16px;
+	line-height:56px;
+	font-weight:bold;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.fanli-msg {
+	width:200px;
+	height:80px;
+	padding:6px 0 0 14px;
+	background:url(../../images/flag.alpha.png) no-repeat;
+	color:#fff;
+	position:absolute;
+	left:-14px;
+}
+.fanli-msg em {
+	font-style:normal;
+	font-size:16px;
+	line-height:35px;
+	text-indent:2em;
+}
+.others {
+	border:1px solid #f4a370;
+	width:215px;
+	height:210px;
+	background:#fce1ce;
+}
+.others
+p {
+	background:url(../../images/nafanli.png);
+	width:179px;
+	height:38px;
+	margin:10px 0 0 18px;
+}
+.others
+ul {
+	padding:10px 0 10px 20px
+}
+.others
+li {
+	line-height:25px;
+	color:#000
+}
+.main {
+	width:744px
+}
+.ad-banner {
+	width:960px;
+	height:128px;
+	margin-bottom:12px; 
+	margin-top:10px;
+}
+.iframe {
+	color:#FFF
+}
+.ad2
+{
+	margin:10px 0 0 0;
+}
+#gundong{width:215px; height:145px;overflow:hidden; font-size:12px;}
+#gundong li{ list-style:none; line-height:15px; height:40px; color:#999}
+#gundong span{ color:#F00;}
+#gundong em{ color:#F0F;font-style:oblique;}

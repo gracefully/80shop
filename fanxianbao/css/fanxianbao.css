@@ -1,0 +1,316 @@
+@charset "utf-8";img{border:0px;}
+.clear{clear:both;}
+.brower{font-size:16px;height:50px;line-height:50px;margin:0 auto;padding-left:20px;text-align:left;width:940px;}
+.brower em{color:#006609;font-weight:bold;padding:0 5px;}
+.brower a{color:#FF0000;font-weight:bold;padding:0 5px;}
+
+.select_fan{display:block;height:70px;margin:0 auto;width:948px;overflow:hidden;}
+.select_fan ul{background:url("../images/fan_bg.png") repeat-x scroll 0 -414px transparent;display:block;height:70px;list-style:none outside none;margin-right:-10px;overflow:hidden;width:960px;}
+.select_fan li{display:inline;float:left;height:70px;margin-right:10px;width:470px;text-align:left;}
+.select_fan li .cur {background: url("../images/fan_bg.png") repeat-x scroll 0 0 transparent;border-left: 1px solid #ff9b3a;border-right: 1px solid #ff9b3a;border-top: 3px solid #ff9b3a;display: block;float: left;height: 70px;width: 466px;}
+.select_fan li .normal {background: url("../images/fan_bg.png") repeat-x scroll 0 -87px transparent;border:1px solid #CCCCCC;display: block;float: left;height: 70px;width: 466px;}
+.select_fan li a h2 {
+color: #333333;
+float: left;
+font-size: 14px;
+font-weight: bold;
+padding: 5px 0 5px 20px;
+width: 58px;
+}
+.select_fan li a span {
+color: #666666;
+display:block;
+float: left;
+padding: 5px 0;
+width:380px;
+}
+.select_fan li a b {
+color: #006699;
+float: left;
+font-size: 14px;
+margin: 5px 0 5px 25px;
+}
+.select_fan li a:hover {text-decoration:none;}
+
+#main{width:946px;margin:0 auto;text-align:left;border:1px solid #ff9b3a;border-top:none;padding-top:8px;position:relative;overflow:hidden;}
+#main .banner{background:url(../img/banner_bg.jpg) no-repeat;width:946px;height:233px;position:relative;overflow:hidden;}
+#main .banner .attribute{position:absolute;left:450px;top:150px;}
+#main .banner .attribute ul{list-style:none;}
+#main .banner .attribute li{background:url(../img/icon_dian.html) no-repeat left center;text-indent:15px;line-height:24px;float:none;}
+#main .banner .user_input{position:absolute;left:600px;top:165px;width:120px;}
+#main .banner .user_check{position:absolute;left:602px;top:200px;width:130px;}
+#main .banner .user_check span{width:130px;height:25px;line-height:25px;font-size:12px;padding-left:3px;}
+#main .banner .user_smt{position:absolute;left:728px;top:157px;}
+#main .banner .user_smt .input_smt{background:url(../img/smt_download.gif) no-repeat;width:184px;height:64px;cursor:pointer;border:0px;}
+#main .banner .user_input .input_text{width:120px;height:30px;line-height:30px;border:1px solid #8fc127;font-size:14px;padding-left:3px;}
+#main .banner .down {
+bottom: 5px;
+color: #006699;
+font-size: 14px;
+font-weight: bold;
+position: absolute;
+right: 70px;
+}
+#main .banner .down a{color: #006699;}
+#main .help{margin-top:8px;}
+#main .help img{border:0px;}
+#main .help .top{background:url(../img/right_help_title.gif) no-repeat;width:946px;height:61px;}
+h4{font-size:14px;font-weight:bold;}
+#main .help .top h4 a{text-decoration:underline;color:#007b00;}
+#main .help .top h4{float:right;font-size:14px;margin-right:30px;line-height:35px;}
+#main .help .top span{float:right;margin-right:30px;margin-top:40px;}
+#main .help .bg{padding:30px;font-size:14px;}
+#main .help .bg img{margin:10px;}
+#main .help .bg .question{background:#eef8dc;border:1px solid #c1d094;width:885px;;}
+#main .help .bg .question ul{list-style:none;}
+#main .help .bg .question li{float:left;display:inline;margin-left:50px;width:220px;color:#536b23;line-height:40px;}
+#main .help .bg .remove{text-align:right;font-size:12px;padding-top:20px;}
+#main .help .bg .remove a{color:#9c9c9c;text-decoration:underline;}
+#main .help .bg .question li a{color:#536b23;TEXT-DECORATION:none}
+#main .help .bg .question li a:hover{color:#536b23;TEXT-DECORATION:underline}
+#main .help .bg li span{color:#f00;}
+#main .help .bg .title{margin:30px auto 8px;}
+#main .help .bg .title span{float:right;}
+#main .help .bg .title span a{text-decoration:underline;}
+#main .help .bg .title span em{font-style:normal;color:#f00;}
+#main .help .bg p{color:#5e5e5e;}
+#main .help .bg p span{color:#f00;}
+#main .help .bg ul{list-style:none;}
+#main .help .bg li{line-height:24px;color:#5e5e5e;}
+#main .help .bg li a{color:#f00;text-decoration:underline;}
+#main .help .bg li img{margin-left:20px;}
+#main .help .bottom{background:url(../img/right_help_bottom.html) no-repeat;height:3px;width:948px;}
+.notice{font-size:12px;color:#f00;margin:20px 0px;}
+
+#main .left {
+    left: 20px;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+}
+#main .left ul {width:200px;}
+#main .left ul li {
+font-size: 14px;
+height: 54px;
+width: 170px;
+}
+.ie, .firefox, .safari, .chrome, .opera {
+background: url("../images/browsers.gif") no-repeat scroll -7px 0 transparent;
+display: block;
+float: left;
+height: 43px;
+margin: 6px;
+overflow: hidden;
+width: 46px;
+}
+#main .left ul li span {}
+#main .left ul li .normal {border-top:1px solid #D8D8D8;}
+#main .left ul li .cur {
+background: url("../images/browsers.gif") no-repeat scroll 0 -230px transparent;
+border: medium none;
+color: #FFFFFF;
+display: block;
+font-weight: bold;
+height: 55px;
+width: 200px;
+}
+#main .left ul li a{
+border-bottom: 1px solid #D8D8D8;
+border-left: 1px solid #D8D8D8;
+display: block;
+height: 54px;
+line-height: 54px;
+overflow: hidden;
+text-decoration: none;
+width: 170px;
+}
+.firefox {background-position: -7px -55px;}
+.chrome {background-position: -7px -165px;}
+.opera {background-position: -7px -368px;}
+.safari {background-position: -7px -110px;}
+.ie {background-position: -7px 0px;}
+#main .right {
+    border: 1px solid #D8D8D8;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 191px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 705px;
+}
+#main .hon{
+	margin-bottom:20px;
+	padding-left:10px;
+}
+#main .hon .title{
+	background:#f4f4f4;
+	height:32px;
+	margin-right:20px;
+	margin-left:-10px;
+}
+#main .hon .tips_err {
+    clear: both;
+    color: #FF0000;
+}
+#main .right .tips_ok{
+	clear:both;
+	color:#139c00;
+}
+#main .hon  p {
+    line-height: 24px;
+    margin: 20px 20px 20px 0;
+}
+#main .hon  p {
+    margin-bottom: 10px;
+}
+#main .right .arrow {
+    background: url("../images/browsers.gif") no-repeat scroll 0 -320px transparent;
+    float: left;
+    height: 42px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 50px;
+}
+#main .right .use_fanxianbao{
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+#main .right .use_fanxianbao .fan{
+	background:#fffeec;
+	border:1px solid #f0c197;
+	display:block;
+	width:200px;
+	height:50px;
+	margin-bottom:10px;
+}
+#main .right .use_fanxianbao .fan a{
+	display:block;
+	background:url("../images/browsers.gif") no-repeat 0px -288px;
+	width:85px;
+	height:25px;
+	line-height:25px;
+	margin:12px auto;
+	text-decoration:none;
+	color:#fff;
+	text-indent:22px;
+}
+.clearfix{
+	overflow:hidden;
+	margin-bottom:20px;
+	background:#fffed2;
+	border:1px solid #fec265;
+	height:122px;
+	width:680px;
+}
+.clearfix a:hover{
+	color:#fff;
+}
+.clearfix a .fan_ico{
+	position:absolute;
+	left:-20px;
+	top:8px;
+	width:47px;
+	height:25px;
+}
+
+.clearfix .fs14{
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+	background:#fff;
+	border:1px solid #fec265;
+	padding:20px;
+	position:relative;
+	color:#000;
+}
+.clearfix .fs14 em{
+		font-style:normal;
+}
+.clearfix .fs14 span{
+	font-size:12px;
+	line-height:25px;
+	color:#888;
+}
+.clearfix .fs14 .yixia_ico{
+	background:url(../images/yixia_ico01.gif) no-repeat;
+	width:14px;
+	height:24px;
+	position:absolute;
+	left:-14px;
+	top:28px;
+}
+.clearfix .yixia{
+	display:block;
+	background:url(../images/yixia_fav.gif) no-repeat;
+	width:135px;
+	height:109px;
+	float:left;
+	position:relative;
+	margin-left:15px;
+	margin-top:5px;
+	display:inline;
+}
+.clearfix a{
+    text-align:center;
+	display:block;
+	line-height:30px;
+	color:#fff;
+	font-weight:bold;
+	width:107px;
+	height:30px;
+	margin-top:42px;
+	margin-left:9px;
+	background: url("../images/yixia_choose_browser.gif") no-repeat scroll 0 -450px transparent;
+}
+.clearfix a:hover{
+	color:#fff;
+}
+.clearfix .fan_ico{
+	position:absolute;
+	left:5px;
+	top:8px;
+	width:67px;
+	height:33px;
+}
+.step{
+	background:#d50000;
+	width:330px;
+	height:20px;
+	line-height:20px;
+	color:#fff;
+	font-family:"宋体";
+	margin-bottom:15px;
+	font-size:12px;
+	padding:0px 10px;
+}
+.step a{
+	color:#fff;
+	text-decoration:none;
+}
+.step a:hover{
+	text-decoration:underline
+}.title{
+	background:#f4f4f4;
+	height:32px;
+	margin-right:20px;
+	margin-left:-10px;
+}
+.title h4{
+	font-size:14px;
+	color:#000;
+	line-height:32px;
+	margin-left:10px;
+}
+.red{
+	color:#f00;
+}
+.tips_news {
+	FLOAT: left; COLOR: #f00; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 20px;margin-left:18px;
+}

@@ -1,0 +1,38 @@
+/*  店铺宝贝列表开始 */
+.shopleft { width:250px; float:left; margin:10px 0 0 0; padding:0; }
+.shopleft .shopmessage {text-align:left;width:248px; padding:0; background-color:#ffffff;border: 1px solid #D0210C;}
+.shopleft .shopmessage .shopname{
+	width:228px; 
+	margin:15px 0 10px 10px;
+	padding:0 0 5px 0;
+	line-height:20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.shopleft .shopmessage .shoplogo{width:228px;	margin:10px 0 0px 10px;	padding:0 0 5px 0;	line-height:20px;}
+.shopleft .shopmessage .shoplogo .shoplogo-img{ float:left; width:90px; margin:0; padding:0;}
+.shopleft .shopmessage .shoplogo .shoplogo-img img{ width:80px; height:80px;}
+.shopleft .shopmessage .shoplogo .shoplogo-font{}
+.shopleft .shopmessage .shoplogo .shoplogo-font h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF3300;
+	font-weight: bold;
+	margin:2px 0 0 0;
+	padding:0;
+}
+.shopleft .shopmessage .shoptxt{ clear:both;width:228px;margin:0 0 15px 15px;line-height:22px; padding: 10px 0 0 0;}
+.shopleft .shopmessage .shoptxt .shoptxt-img{ vertical-align:bottom;}
+.shopleft .shopmessage .shoptxt b { font-size:12px; margin:5px 0 5px 0; display:block;}
+.shopleft .shopmessage .shoptxt .shoptxt-dt{ width:228px; clear:both; height:25px;}
+.shopleft .shopmessage .shoptxt .title {float:left;}
+.shopleft .shopmessage .shoptxt .shopbutton { margin:10px 0 0 40px; padding:0;}
+
+
+.shop_button1 { width:127px; height:30px; display:block;background:url(../images/tubiao.png); background-repeat:no-repeat; background-position:0px -559px;}
+.shop_button1_h { width:127px; height:30px; display:block;background:url(../images/tubiao.png); background-repeat:no-repeat; background-position:0px -589px; cursor:pointer;}
+.shopright { width:750px; float:right;margin:10px 0 0 0; padding:0;} 
+.shopright .goodslist {text-align:left;width:740px;  margin:0 0 0 8px; padding:0;  background-color:#ffffff;border: 1px solid #D0210C;}
+ /*  店铺宝贝列表结束 */

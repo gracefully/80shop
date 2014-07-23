@@ -1,0 +1,1 @@
+<?php exit;?>{"edate":"<","width":"<","bgcolor":"<","id":"<","height":"<","img":1,"img_url":"<","content":1}

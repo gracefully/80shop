@@ -1,0 +1,48 @@
+.zheko_left { width:250px; float:left; overflow:auto; margin:0;}
+.zheko_right { width:740px; float:right; overflow:hidden; margin-top:10px}
+
+.zheko_fenlei{
+	width:248px;
+	float:left;
+	background:#ffffff;
+	margin:10px 0 10px 0px;
+	display:inline;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #D0210C;
+	border-right-color: #D0210C;
+	border-bottom-color: #D0210C;
+	border-left-color: #D0210C;
+}
+.zheko_fenlei ul{ width:226px; margin:9px 6px 9px 6px;}
+.zheko_fenlei li { float:left;  padding:0; padding:5px 4px 5px 4px; border:1px solid #CCCCCC; background:#FFFFFF;margin:0 0 9px 9px;white-space:nowrap; }
+.zheko_fenlei li a{ display:block;}
+.zheko_main{width:238px; float:left; background:#ECECEC; border: solid 1px #E4E4E4; margin-bottom:10px;}
+.zheko_mainb{width:238px; float:left; background:#ffffff; border: solid 1px #E4E4E4; margin:10px 0 0 0px; float:right;}
+.zheko_main img{ border:0; margin:9px; width:220px; height:auto;}
+.zheko_main p{ width:220px; margin:0 0 0 9px; line-height:22px; padding:0;}
+.zheko_main span.price{ color:#666; text-decoration:line-through}
+.zheko_main .zheko_main_green{color:#F60; font-weight:bold;}
+.zheko_main .zheko_main_denji{ margin:0; padding:0;  margin:0 0 0 3px; display:inline; vertical-align: middle; display:inline;}
+.zheko_main .zheko_main_denji img { width:auto; height:auto; clear:both;}
+.zheko_main .zheko_main_dian{ height:22px; }
+.zheko_main .zheko_main_dian img{width:auto; height:auto; }
+.zheko_main .zheko_main_dian p{ margin:5px 0 0 9px; line-height:0;}
+.zheko_main .zheko_main_hui{color:#999999;}
+.zheko_main .zheko_main_bottom{  background:#E4E3E3;  margin:1px 0 0 0;}
+.zheko_main .zheko_main_bottom b{ background:#F00; color:#FFF; padding-left:1px; padding-right:1px; font-size:14px}
+.zheko_main .zheko_main_bottom p{ margin:0 0 0 9px; height:30px; line-height:30px;}
+.zheko_guanggao{text-align:left;width:250px; margin:0; padding:0; background-color:#ffffff; overflow:hidden; clear:both;}
+.zheko_guanggao img { border:0; width:250px; height:auto;}
+
+.zheko_main .zhe{line-height:25px; padding-left:10px; width:220px; margin:auto}
+.zheko_main .discount {display:block; height:25px; float:right; margin-right:5px}
+.zheko_main .discount span { background:url(../images/discount_rebate_bg.png) no-repeat scroll left top transparent; color:#000; display:block; float:left; height:25px; line-height:25px; padding-left:15px;  }
+.zheko_main .discount span b {font-family:arial, sans-serif; font-weight:normal; margin-right:2px; font-size:12px; font-weight:bold; color:#063 }
+.zheko_main .discount i { background:url(../images/discount_rebate_bg.png) no-repeat scroll left bottom transparent; display:block; float:left; height:25px; width:5px; }

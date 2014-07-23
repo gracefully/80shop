@@ -1,0 +1,189 @@
+html, body {
+	margin:0;
+	padding:0;
+	border:0;
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0)
+}
+html {
+	overflow-y:scroll
+}
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit
+}
+body {
+	line-height:1;
+	background:#fff
+}
+img {
+	font-size:12px;
+	line-height:1em;
+	color:#999;
+	text-align:left;
+	border:none
+	overflow:hidden;
+	-ms-interpolation-mode:bicubic
+}
+.container {
+	width:960px;
+	margin:0 auto;
+	text-align:left
+}
+body {
+	font:12px "Microsoft YaHei", sans-serif
+}
+a, a:hover {
+	color:#008EF2;
+	text-decoration:none
+}
+a:active {
+	outline:none
+}
+.ht {
+	margin:0;
+	padding:0;
+	height:0;
+	list-style:none;
+	text-indent:-9999px;
+	overflow:hidden
+}
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+.clearfix:after, .container:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow:hidden;
+	font-size:0
+}
+.clearfix, .container {
+*zoom:1
+}
+body {
+	background:url(../images/bg-follow.png) repeat
+}
+.wx-header {
+	height:81px;
+	background:url(../images/bg-hdr.png) repeat-x top;
+	overflow:hidden
+}
+.wx-logo {
+	float:left;
+	height:55px;
+	margin-top:11px;
+}
+.wx-logo .logo img {
+	float:left;
+	display:block;
+	width:136px;
+	height:55px
+}
+.wx-logo .logo-wx {
+	float:left;
+	display:block;
+	width:206px;
+	height:55px;
+	background:url(../images/logo.png) no-repeat -136px 0;
+}
+.btn-back {
+	float:right;
+	display:block;
+	width:118px;
+	height:36px;
+	margin-top:20px;
+	background:url(../images/btn-back.png) no-repeat;
+	font-size:14px;
+	line-height:36px;
+	text-align:center;
+	color:#B4B4B4
+}
+.btn-back:hover {
+	color:#FFF
+}
+.wx-body {
+	height:354px;
+	background:url(../images/bg-body.jpg) #5D852D no-repeat center top
+}
+.wx-body .container {
+	position:relative
+}
+.wx-flag {
+	position:absolute;
+	left:0;
+	top:75px;
+	width:952px;
+	height:338px;
+	background:url(../images/img-body.png) no-repeat
+}
+.wx-qrcode {
+	position:absolute;
+	left:701px;
+	top:162px;
+	width:245px;
+	height:245px
+}
+.wx-info {
+	float:right;
+	width:265px;
+	margin-top:70px;
+	font-size:14px;
+	line-height:24px;
+	color:#FFF
+}
+.wx-info .t {
+	font-size:14px;
+	font-weight:bold
+}
+.wx-follow {
+	padding-top:35px;
+	background:url(../images/bg-follow.png) repeat
+}
+.wx-follow .t {
+	width:401px;
+	height:24px;
+	margin-bottom:32px;
+	background:url(../images/t-follow.png) no-repeat
+}
+.wx-item {
+	float:left;
+	width:230px;
+	margin-right:135px;
+	font-size:14px;
+	line-height:24px;
+	color:#666
+}
+.wx-item-last {
+	margin-right:0
+}
+.wx-item h4 {
+	margin-top:8px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	color:#000
+}
+.wx-footer {
+	margin-top:55px;
+	border-top:1px solid #D3D3D3;
+	font-size:14px;
+	color:#666
+}
+.wx-footer p {
+	display:block;
+	padding:25px 0;
+	border-top:1px solid #EBEBEB;
+	text-align:center
+}

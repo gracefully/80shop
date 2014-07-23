@@ -1,0 +1,113 @@
+﻿@charset "utf-8";html,body{height:100%}
+.clearfix{*zoom:1}
+.clearfix:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0}
+
+.wrap{min-width:1002px}
+.sec_main{background-color:#f1f1f1}
+.sec_main .sec_mainA{margin-top:0;padding-top:10px}
+.mod_pager{clear:both;overflow:hidden;text-align:center;padding-top:30px}
+.red{color:red}
+.pagination{margin:0}
+.pagination ul{display:inline-block;list-style:none;*display:inline;*zoom:1;margin-left:0;margin-bottom:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.05);box-shadow:0 1px 2px rgba(0,0,0,0.05)}
+.pagination ul>li{display:inline}
+.pagination ul>li>a,.pagination ul>li>span,.pagination #lastspan{float:left;padding:4px 12px;line-height:20px;text-decoration:none;background-color:#fff;border:1px solid #ddd;border-left-width:0}
+.pagination ul>li>a:hover,.pagination ul>li>a:focus,.pagination ul>.active>a,.pagination ul>.active>span{background-color:#f5f5f5}
+.pagination ul>.active>a,.pagination ul>.active>span{color:#999;cursor:default}
+.pagination ul>.disabled>span,.pagination ul>.disabled>a,.pagination ul>.disabled>a:hover,.pagination ul>.disabled>a:focus{color:#999;background-color:transparent;cursor:default}
+.pagination ul>li:first-child>a,.pagination ul>li:first-child>span{border-left-width:1px;-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px}
+.pagination ul>li:last-child>a,.pagination ul>li:last-child>span,.pagination #lastspan{-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px}
+.pagination-centered{text-align:center}
+.pagination-right{text-align:right}
+.pagination-large ul>li>a,.pagination-large ul>li>span,.pagination-large #lastspan{padding:11px 19px;font-size:17.5px}
+.pagination-large ul>li:first-child>a,.pagination-large ul>li:first-child>span{-webkit-border-top-left-radius:6px;-moz-border-radius-topleft:6px;border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomleft:6px;border-bottom-left-radius:6px}
+.pagination-large ul>li:last-child>a,.pagination-large ul>li:last-child>span,.pagination-large #lastspan{-webkit-border-top-right-radius:6px;-moz-border-radius-topright:6px;border-top-right-radius:6px;-webkit-border-bottom-right-radius:6px;-moz-border-radius-bottomright:6px;border-bottom-right-radius:6px}
+.pagination-mini ul>li:first-child>a,.pagination-small ul>li:first-child>a,.pagination-mini ul>li:first-child>span,.pagination-small ul>li:first-child>span{-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:3px}
+.pagination-mini ul>li:last-child>a,.pagination-small ul>li:last-child>a,.pagination-mini ul>li:last-child>span,.pagination-small ul>li:last-child>span{-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:3px}
+.pagination-small ul>li>a,.pagination-small ul>li>span{padding:2px 10px;font-size:11.9px}
+.pagination-mini ul>li>a,.pagination-mini ul>li>span{padding:0 6px;font-size:10.5px}
+.pagination ul>li>.current{font-weight:bold;color:#fe4800}
+.brand-category{width:998px;height:auto;margin:15px auto 0;border:#d2d2d2 solid 1px;background-color:#fff}
+.brand-category .ks-switchable-nav{width:auto;height:70px;background-color:#f1f1f1}
+.brand-category .ks-switchable-nav li{width:83px;height:70px;float:left}
+.brand-category .ks-switchable-nav li a{text-align:center;width:inherit;height:59px;padding-top:11px;display:block;color:#323232;cursor:pointer;outline:0;text-decoration:none;background:url(../images/tb_icon.png) no-repeat -9999px -9999px #f1f1f1}
+.brand-category .ks-switchable-nav li a:hover,.brand-category .ks-switchable-nav li .brand-category-selected{color:#fe4600;outline:0;background-color:#fff}
+.brand-category .ks-switchable-nav li.brand-category-all a{background-position:-8px -138px}
+.brand-category .ks-switchable-nav li.member-overseas a{background-position:-102px -138px}
+.brand-category .ks-switchable-nav li.member-clothes a{background-position:-193px -138px}
+.brand-category .ks-switchable-nav li.member-man a{background-position:-288px -138px}
+.brand-category .ks-switchable-nav li.member-shoes a{background-position:-379px -138px}
+.brand-category .ks-switchable-nav li.member-beauty a{background-position:-468px -138px}
+.brand-category .ks-switchable-nav li.member-house a{background-position:-563px -138px}
+.brand-category .ks-switchable-nav li.member-underwear a{background-position:-655px -138px}
+.brand-category .ks-switchable-nav li.member-infant a{background-position:-744px -138px}
+.brand-category .ks-switchable-nav li.member-food a{background-position:-893px 27px}
+.brand-category .ks-switchable-nav li.member-outdoor a{background-position:-991px 27px}
+.brand-category .ks-switchable-nav li.member-digital a{background-position:-1073px 27px}
+.brand-category .ks-switchable-nav li.brand-category-all a:hover,.brand-category .ks-switchable-nav li.brand-category-all .brand-category-selected{background-position:-8px 28px}
+.brand-category .ks-switchable-nav li.member-overseas a:hover,.brand-category .ks-switchable-nav li.member-overseas .brand-category-selected{background-position:-101px 28px}
+.brand-category .ks-switchable-nav li.member-clothes a:hover,.brand-category .ks-switchable-nav li.member-clothes .brand-category-selected{background-position:-191px 29px}
+.brand-category .ks-switchable-nav li.member-man a:hover,.brand-category .ks-switchable-nav li.member-man .brand-category-selected{background-position:-286px 29px}
+.brand-category .ks-switchable-nav li.member-shoes a:hover,.brand-category .ks-switchable-nav li.member-shoes .brand-category-selected{background-position:-375px 29px}
+.brand-category .ks-switchable-nav li.member-beauty a:hover,.brand-category .ks-switchable-nav li.member-beauty .brand-category-selected{background-position:-467px 29px}
+.brand-category .ks-switchable-nav li.member-house a:hover,.brand-category .ks-switchable-nav li.member-house .brand-category-selected{background-position:-560px 30px}
+.brand-category .ks-switchable-nav li.member-underwear a:hover,.brand-category .ks-switchable-nav li.member-underwear .brand-category-selected{background-position:-652px 30px}
+.brand-category .ks-switchable-nav li.member-infant a:hover,.brand-category .ks-switchable-nav li.member-infant .brand-category-selected{background-position:-744px 30px}
+.brand-category .ks-switchable-nav li.member-food a:hover,.brand-category .ks-switchable-nav li.member-food .brand-category-selected{background-position:-898px -137px}
+.brand-category .ks-switchable-nav li.member-outdoor a:hover,.brand-category .ks-switchable-nav li.member-outdoor .brand-category-selected{background-position:-989px -137px}
+.brand-category .ks-switchable-nav li.member-digital a:hover,.brand-category .ks-switchable-nav li.member-digital .brand-category-selected{background-position:-1073px -137px}
+.brand-category .ks-switchable-content{clear:both;height:auto;background-color:#fff}
+.brand-category .ks-switchable-content .ks-tabs-body{height:auto;text-align:left;padding-left:20px;display:none; *padding:10px 15px;}
+.brand-category .ks-switchable-content .ks-tabs-selected{display:block}
+.brand-category .ks-switchable-content .ks-tabs-selected .current{color:#FFf;background-color:#ff4e00;padding:3px 10px;}
+.brand-category .ks-switchable-content .ks-tabs-body a{padding:15px 15px;color:#666;display:inline-block; *padding:5px;}
+.ks-tabs-panel{width:998px;height:auto;margin:0 auto}
+
+.spr{background:url(../images/new_spr.png) no-repeat}
+.hide{display:none}
+.show{display:block}
+.sec_main{font-family:"Microsoft YaHei","微软雅黑",Simsun,Mingliu,Arial,Helvetica;overflow:hidden}
+.wrap-cont{width:1000px;margin:0 auto;overflow:hidden}
+.more-goods-tit{width:100%;height:55px;border-bottom:1px solid #d8d8d8;margin-top:1px}
+.more-goods-tit .line-tit{display:inline-block;float:left;padding-top:22px}
+.more-goods-tit .goods-nav{display:inline-block;float:right;padding-top:20px}
+.more-goods-tit .goods-nav a{display:inline-block;float:left;position:relative;width:64px;height:24px;line-height:24px;text-align:center;color:#333}
+.more-goods-tit .goods-nav a:hover{color:#FFF;background-color:#3dc054;text-decoration:none}
+.more-goods-tit .goods-nav a .arrows{display:none;position:absolute;width:8px;height:5px;bottom:-5px;left:50%;margin-left:-4px;background-position:-115px -16px}
+.more-goods-tit .goods-nav .on{color:#FFF;background-color:#3dc054}
+.more-goods-tit .goods-nav .on .arrows{display:block}
+.more-goods-tit .goods-nav .space{display:inline-block;float:left;padding:0 6px;height:24px;line-height:24px}
+.more-goods-list{width:100%;overflow:hidden}
+.zhuanxiang_goods_list{width:1020px}
+.zhuanxiang_goods_list .cell{display:inline;float:left;width:240px;height:342px;margin:10px 10px 0 0;border:1px solid #d8d8d8;background-color:#FFF;overflow:hidden; cursor:pointer}
+.zhuanxiang_goods_list .goods-name{display:block;width:200px;height:41px;padding-top:12px;margin:0 auto;line-height:16px;overflow:hidden;word-break:break-all}
+.zhuanxiang_goods_list .goods-name .img-link{display:block;width:100%;height:32px;color:#666;overflow:hidden}
+.zhuanxiang_goods_list .img-link{position:relative;display:block;width:200px;height:200px;margin:0 auto}
+.zhuanxiang_goods_list .img-link img{ width:200px; height:200px}
+.zhuanxiang_goods_list .img-link .shoujitip{position:absolute; top:0; right:0; background:url(../images/buy-mobile.png); height:38px; width:30px}
+.zhuanxiang_goods_list .img-link .ico_m{cursor:pointer}
+.zhuanxiang_goods_list .goods-price{display:block;width:200px;height:35px;margin:0 auto;line-height:35px}
+.zhuanxiang_goods_list .goods-price .new-price{font-size:18px;color:#ff4e00;font-weight:bold}
+.zhuanxiang_goods_list .goods-price .new-price span{font-size:12px}
+.zhuanxiang_goods_list .goods-price del{padding-left:10px;font-size:12px;color:#999}
+.zhuanxiang_goods_list .goods-txt-btn{position:relative;width:216px;height:44px;padding:10px 12px 0 12px;background-color:#f5f5f5}
+.zhuanxiang_goods_list .goods-txt-btn .erweima{position:absolute; top:12px; right:80px; background:#666; background:url(../images/erweima.png); width:26px; height:26px}
+.zhuanxiang_goods_list .goods-info{width:150px;overflow:hidden;height:15px;padding-bottom:4px;color:#888;font-size:12px}
+.zhuanxiang_goods_list .goods-info a,.zhuanxiang_goods_list .goods-info a:hover{color:#888}
+.zhuanxiang_goods_list .goods-info .sign{display:inline-block;float:left;width:14px;height:14px;text-align:center;line-height:14px;color:#FFF}
+.zhuanxiang_goods_list .goods-info .red{background-color:#ff4e00}
+.zhuanxiang_goods_list .goods-info .goods-info-txt{display:inline-block;float:left;padding-left:5px;height:14px;line-height:14px}
+.zhuanxiang_goods_list .goods-info .goods-info-txt span{color:#ff4e00}
+.zhuanxiang_goods_list .goods-btn{display:block;position:absolute;top:12px;right:12px;width:56px;height:30px;background-position:0 -119px;line-height:300px;overflow:hidden}
+.zhuanxiang_goods_list .on{border-color:#ff4e00}
+.zhuanxiang_goods_list .on .goods-txt-btn{background:url(../images/info_bg.png)}
+.zhuanxiang_goods_list .on .goods-btn{background-position:-57px -119px}
+.zhuanxiang_goods_list .on .tomorrow-btn{background-position:-57px -119px}
+.zhuanxiang_goods_list .on .goods-info{color:#FFF}
+.zhuanxiang_goods_list .on .goods-info a,.zhuanxiang_goods_list .on .goods-info a:hover{color:#FFF}
+.zhuanxiang_goods_list .on .goods-info .goods-info-txt span{color:#FFF}
+.zhuanxiang_goods_list .on .goods-info .red{color:#ff4e00;background-color:#FFF}
+.zhuanxiang_goods_list .over .goods-btn{background-position:0 -150px}
+.zhuanxiang_goods_list .undercarriage .goods-btn{background-position:0 -185px}
+.zhuanxiang_goods_list .undercarriage .tomorrow-btn{background-position:-57px -186px}
+.img-da{width:980px;padding-top:16px;overflow:hidden}
+.hidden{visibility:hidden;display:inline-block;width:0;height:0;overflow:hidden}

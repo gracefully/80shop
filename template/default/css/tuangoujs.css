@@ -1,0 +1,74 @@
+/* CSS Document */
+
+body { font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;font-size:12px;margin:0px;}
+dl,dt,dd,ul,li,p,h1,img,form { padding:0px; margin:0px; list-style:none; border: none; }
+select,input{ vertical-align:middle; }
+a{color: #43781D; text-decoration:none;}
+a:hover {color: #FF5400;text-decoration:none;}
+
+
+/* 团购介绍 */
+.tuangoujs_color1{color:#ff3c00;font-size:24px;font-family:"黑体";}
+.tuangoujs_color2{color:#ff3c00;font-size:60px;font-family:Arial, Helvetica, sans-serif;}
+.tuangoujs_color3{color:#ff3c00;font-size:14px;font-family:Arial, Helvetica, sans-serif;font-weight:bold;}
+.tuangoujs_color4{color:#ff3c00;font-size:12px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;}
+
+    .tuangoujs_mianbaox{width:950px;}
+  .tuangoujs_content{width:948px;padding:0px 2px 34px 0px;}
+	.tuangoujs_content_left{width:710px;float:left;}
+	  .tuangoujs_content_tuijian{margin-bottom:18px;background:#fffaf0;border:1px solid #edcb7b;padding:22px 15px 4px 18px;}
+		.tuangoujs_content_tuijian_text{font-size:24px;color:#303030;font-family:"黑体";line-height:34px;overflow:hidden;word-wrap:break-word; text-align:left}
+		.tuangoujs_content_tuijian_content{clear:both;}
+		.tuangoujs_content_tuijian_pic{width:422px;height:265px;overflow:hidden;float:left;}
+		.tuangoujs_content_tuijian_jiage{width:217px;overflow:hidden;float:right;color:#151515;font-size:14px;}
+		.tuangoujs_content_tuijian_jiage_span1{display:block;float:left;height:44px;line-height:44px;}
+		.tuangoujs_content_tuijian_jiage_jiantou{width:107px;height:31px;line-height:31px;background:url(../images/tuangoujs_17.jpg) no-repeat;text-align:center;font-size:14px;display:block;float:left;margin:13px 0px 0px 14px;}
+		.tuangoujs_content_tuijian_jiage li{margin-bottom:14px;*margin-bottom:16px;_margin-bottom:14px;width:217px;float:left;display:block;}
+		.tuangoujs_content_tuijian_jiage li.wu{margin:0;}
+		.tuangoujs_content_tuijian_jiage li.bj{width:208px;background:#fff;border:1px solid #edcb7b;text-align:center;padding:10px 0px 0px 0px;}
+		.tuangoujs_content_tuijian_jiage li.juzhong{text-align:center;}
+		.tuangoujs_content_tuijian_jiage p{margin-bottom:10px;text-align:center;}
+	  .tuangoujs_content_bendanxq{border:1px solid #d8d8d8;padding:22px 9px 35px 14px;background:#fff;}
+		.tuangoujs_content_shangjia{width:438px;float:left;overflow:hidden;}
+		.tuangoujs_content_shangjia img{max-width:438px;width:expression(function(el){el.style.width=el.clientWidth > 438 ? "438px" : "auto";}(this));}
+		.tuangoujs_content_dizhi{width:215px;float:right;overflow:hidden;}
+		.tuangoujs_content_dizhi img{max-width:215px;width:expression(function(el){el.style.width=el.clientWidth > 215 ? "215px" : "auto";}(this));}
+
+	.tuangoujs_content_right{width:220px;float:right;}
+	  .tuangoujs_content_tuangousssc{margin-bottom:17px;background:#f8faeb;border:1px solid #d5dcb1;width:218px;padding:11px 0px 0px 0px;}
+		.tuangoujs_content_tuangousssc_h1{color:#343434;font-size:14px;font-weight:bold;padding-bottom:18px;padding-left:15px;}
+		.tuangoujs_content_tuangousssc_content{width:218px;}
+		.tuangoujs_content_tuangousssc_content li{width:218px;float:left;display:block;text-align:center;margin-bottom:8px;}
+		.tuangoujs_content_tuangousssc_content li.bj{margin-bottom:21px;}
+	  .tuangoujs_content_shanghaijrtg_h1{color:#343434;font-size:14px;font-weight:bold;padding-left:15px;}
+		.tuangoujs_content_shanghaijrtg{width:216px; text-align:left;}
+		.tuangoujs_content_shanghaijrtg li{width:189px;padding:15px 15px;background:url(../images/tuangoujs_34.jpg) repeat-x bottom; margin:auto}
+		.tuangoujs_content_shanghaijrtg li a{color: #ff4400; text-decoration:none;}
+        .tuangoujs_content_shanghaijrtg li  a:hover {color: #ff0000;text-decoration:none; text-decoration:underline}
+		.tuangoujs_content_shanghaijrtg li.wu{background:none;}
+		.tuangoujs_content_shanghaijrtg p{width:189px;line-height:22px;overflow:hidden;margin-bottom:2px;}
+		.tuangoujs_content_shanghaijrtg p.gao{width:189px;height:70px;line-height:22px;overflow:hidden;}
+		.tuangoujs_content_shanghaijrtg_span1{display:block;float:left;}
+		.tuangoujs_content_shanghaijrtg_jiantou{width:80px;height:22px;line-height:22px;background:url(../images/tuangoujs_27.jpg) no-repeat;text-align:center;font-size:12px;display:block;float:left;margin-left:9px;}
+	  .tuangoujs_content_liulanls{width:206px;padding:0px 0px 0px 12px;}
+		.tuangoujs_content_liulanls li{margin-bottom:12px;line-height:22px;}
+		.tuangoujs_content_liulanls li.h1{font-size:14px;font-weight:bold;}
+
+
+
+
+  .tuangoujs_bottom{width:930px;}
+
+/* 团购介绍结束 */
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+<?php exit;?>{"tao\/coupon":"coupon","huodong\/list":"mall","shop\/list":"tao"}

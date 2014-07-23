@@ -1,0 +1,1 @@
+{"fxbl":{"100":0.8,"50":0.7,"20":0.6,"0":0.5},"cache_time":10,"errorlog":0,"key":21165987,"secret":"b99c6c50088ed36ad0035b71126c8222","shop_open":1,"shop_slevel":11,"shop_elevel":20,"corrent_time":0}

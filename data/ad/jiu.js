@@ -1,0 +1,1 @@
+document.write('<a target="_blank" ><img src="images/jiu.png" alt="9.9包邮" /></a>')

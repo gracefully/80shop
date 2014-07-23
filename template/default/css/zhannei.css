@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0;font:normal 12px "tahoma", "宋体";}
+a{ text-decoration:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+a img{border:0 none}
+ul{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+.font20{font-size:20px;}
+.green {color: #609600;}
+.yerrow {color: #FF5500;}
+.gray {color: #999999;}
+.taoshihui .tsh_tabmain{ width:1000px; margin:0 auto;}
+.ten-tuan-bottom{width:1000px; border-bottom:1px solid #eee; margin-top:10px}
+.ten-tuan-bottom ul{width:1041px;}
+.ten-tuan-bottom ul li{width:249px;background:#fff; margin: 0 -1px -1px 0; border:1px solid #eee;float:left;overflow:hidden;position:relative;display:block}
+.ten-tuan-bottom ul li .hover_f{ border:2px solid #fff; width:211px; min-height:330px;padding:17px; _padding:22px 16px 22px 22px;}
+.ten-tuan-bottom ul li:hover .hover_f{ border:2px solid #FF4200; width:211px; min-height:330px;padding:17px; _padding:22px 16px 22px 22px;}
+.ten-tuan-bottom ul li h6{width:210px;display:block;margin:0 auto 10px auto;height:31px}
+.ten-tuan-bottom ul li h6 b{width:210px;display:block;white-space: nowrap;text-overflow:ellipsis;overflow:hidden; color:#f50;height:24px; line-height:24px;}
+.ten-tuan-bottom ul li .J_tklink_tmall{width:210px;height:31px; overflow:hidden; display:block;font:normal 12px/16px "宋体"}
+.ten-tuan-bottom ul li .money{width:210px;background:#fff; transition:all 0.3s ease-out 0s;margin-top:10px;border:1px solid #f50;height:34px;overflow:hidden;display:block}
+.ten-tuan-bottom ul li .money:hover{border:1px solid #f70;}
+.ten-tuan-bottom ul li .money .number{ padding-left:10px; float:left; color:#f50;font:normal 26px/34px "arial","微软雅黑";}
+.ten-tuan-bottom ul li .money a.tuangotobuy{width:100px;height:34px; float:right;transition:all 0.3s ease-out 0s; color:#fff;font:normal 16px/34px "微软雅黑";text-align:center;display:block;background:#f50;}
+.ten-tuan-bottom ul li .money a.tuangotobuy:hover{background:#f70}
+.ten-tuan-bottom ul li .beign{width:288px;background:#fff; transition:all 0.3s ease-out 0s;margin-top:10px;border:1px solid #96c740;height:34px;overflow:hidden;display:block}
+.ten-tuan-bottom ul li .beign:hover{border:1px solid #88b931;}
+.ten-tuan-bottom ul li .beign .number{ padding-left:10px; float:left; color:#609600;font:normal 26px/34px "Arial","微软雅黑";}
+.ten-tuan-bottom ul li .time{width:210px;margin:10px auto 0 auto;height:16px;overflow:hidden;color:#999;font:normal 12px/16px "Tahoma","宋体"}
+.ten-tuan-bottom ul li .time span{float:left; margin-right:10px;}
+.ten-tuan-bottom ul li .time s{width:16px; float:left; font-size:0;height:16px;background:url(../images/ten-icon.png) no-repeat;margin-right:3px}
+.ten-tuan-bottom ul li .time s.go{background-position:-17px -34px}
+.ten-tuan-bottom ul li .time s.yuan{background-position:0px -34px}
+.ten-tuan-bottom ul li .time s.sale{background-position:-34px -50px}

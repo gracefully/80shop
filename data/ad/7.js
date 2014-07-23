@@ -1,0 +1,1 @@
+document.write('<a target="_blank" href="index.php?mod=zhidemai&act=index"><img src="images/zhidemai.jpg" height="313" width="240" alt="广告位7" /></a>')

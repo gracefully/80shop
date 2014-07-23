@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.link .bor1 {
+	BACKGROUND: url(images/bg-title.png) #fff repeat-x 0px 0px; MARGIN-BOTTOM: 20px
+}
+.link H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px 10px; TEXT-INDENT: 1em; LINE-HEIGHT: 32px; BORDER-BOTTOM: #ccc 1px dashed
+}
+.link_h1 {
+	BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 14px; height:25px; line-height:25px; FLOAT: left; MARGIN: 0px 5px 0px 5px; WIDTH: 935px; COLOR: #641e00; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+.link_h1 A {
+	COLOR: #641e00; FONT-SIZE: 14px; font-weight:bold
+}
+.link UL {
+	FLOAT: left; MARGIN: 0px 0px 0px 50px; WIDTH: 850px
+}
+.line_fl2 {
+	FLOAT: left; MARGIN: 15px 5px 0px 10px; WIDTH: 850px; COLOR: #333
+}
+.line_fl2 A {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+.link LI {
+	FLOAT: left; WIDTH: 20%; LINE-HEIGHT: 30px
+}
+.link P {
+	MARGIN: 20px 20px 0px; COLOR: #999; LINE-HEIGHT: 20px
+}
+.link DL {
+	MARGIN: 0px 20px 20px; COLOR: #999; LINE-HEIGHT: 20px
+}
+.rss {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: right
+}
+.sitenav{ position:relative; top:-40px}
